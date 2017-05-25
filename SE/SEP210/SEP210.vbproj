@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1F579FE-DBE5-47FA-931B-C4103FAB5482}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>System7</RootNamespace>
+    <AssemblyName>SEP210</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>C:\Inetpub\wwwroot\System7\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>C:\inetpub\wwwroot\System7\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Base7.Form, Version=1.0.3799.3258, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\inetpub\wwwroot\System7\Base7.Form.dll</HintPath>
+    </Reference>
+    <Reference Include="Base7.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\inetpub\wwwroot\System7\Base7.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v10.1.Core, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v10.1, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v10.1.Core, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v10.1, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v10.1, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v10.1, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v10.1, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v10.1.Core, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v10.1, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v10.1, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v10.1, Version=10.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Frame7.Tools, Version=1.0.3803.22490, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>C:\inetpub\wwwroot\System7\Frame7.Tools.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Print">
+      <HintPath>..\Prt\Print.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="export_report_other.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>export_report_other.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="export_report_other.vb">
+      <DependentUpon>export_report_other.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KRSERPDataSet1.Designer.vb">
+      <DependentUpon>KRSERPDataSet1.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="KRSERPDataSet1.vb">
+      <DependentUpon>KRSERPDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KRSERPDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KRSERPDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KRSERPDataSet11.vb">
+      <DependentUpon>KRSERPDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewControl.Designer.vb">
+      <DependentUpon>PreviewControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SEP210.Designer.vb">
+      <DependentUpon>SEP210.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SEP210.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PackingList_Mark.Designer.vb">
+      <DependentUpon>PackingList_Mark.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PackingList_Mark.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Invoice_Mark.Designer.vb">
+      <DependentUpon>Invoice_Mark.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice_Mark.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C_Invoice_VOL.Designer.vb">
+      <DependentUpon>C_Invoice_VOL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C_Invoice_VOL.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VolksPreviewControl.Designer.vb">
+      <DependentUpon>VolksPreviewControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VolksPreviewControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="C_Packing_VOL.Designer.vb">
+      <DependentUpon>C_Packing_VOL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C_Packing_VOL.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C_Packing_Other.Designer.vb">
+      <DependentUpon>C_Packing_Other.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C_Packing_Other.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OtherPreviewControl.Designer.vb">
+      <DependentUpon>OtherPreviewControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OtherPreviewControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="C_Invoce_Other.Designer.vb">
+      <DependentUpon>C_Invoce_Other.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C_Invoce_Other.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="PreviewControl.resx">
+      <DependentUpon>PreviewControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEP210.resx">
+      <DependentUpon>SEP210.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PackingList_Mark.resx">
+      <DependentUpon>PackingList_Mark.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice_Mark.resx">
+      <DependentUpon>Invoice_Mark.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C_Invoice_VOL.resx">
+      <DependentUpon>C_Invoice_VOL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolksPreviewControl.resx">
+      <DependentUpon>VolksPreviewControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C_Packing_VOL.resx">
+      <DependentUpon>C_Packing_VOL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C_Packing_Other.resx">
+      <DependentUpon>C_Packing_Other.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherPreviewControl.resx">
+      <DependentUpon>OtherPreviewControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C_Invoce_Other.resx">
+      <DependentUpon>C_Invoce_Other.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="export_report_other.xsc">
+      <DependentUpon>export_report_other.xsd</DependentUpon>
+    </None>
+    <None Include="export_report_other.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>export_report_other.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="export_report_other.xss">
+      <DependentUpon>export_report_other.xsd</DependentUpon>
+    </None>
+    <None Include="KRSERPDataSet.xsc">
+      <DependentUpon>KRSERPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KRSERPDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KRSERPDataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="KRSERPDataSet.xss">
+      <DependentUpon>KRSERPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KRSERPDataSet1.xsc">
+      <DependentUpon>KRSERPDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KRSERPDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KRSERPDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KRSERPDataSet1.xss">
+      <DependentUpon>KRSERPDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KRSERPDataSet11.xsc">
+      <DependentUpon>KRSERPDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="KRSERPDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KRSERPDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KRSERPDataSet11.xss">
+      <DependentUpon>KRSERPDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Trigger\SEP215_Delete.sql" />
+    <Content Include="Trigger\SEP215_Update.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BCC100", "BCC100.vbproj", "{5A09E11D-ED45-4773-B465-9003E1947E1F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BCC200", "..\BCC200\BCC200.vbproj", "{3A6610B6-49C7-402C-B85B-392AC28E599F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Form7", "Form7", "{EEDF8F65-A166-42A4-B01D-05B288346DDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BC", "BC", "{882A7BCE-C705-44E9-9A30-0FE7814DF2A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System7", "System7", "{7EC61AE1-FB46-4746-9855-51C76B18576A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "System7.Debug", "..\..\..\System7\System7.Debug\System7.Debug.vbproj", "{85498280-E40B-469B-A3BA-D2E5D4043159}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://115.68.6.112:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = BCC100.vbproj
+		SccProjectTopLevelParentUniqueName0 = System7_cspark.sln
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\BCC200\\BCC200.vbproj
+		SccProjectTopLevelParentUniqueName1 = System7_cspark.sln
+		SccProjectName1 = ../BCC200
+		SccLocalPath1 = ..\\BCC200
+		SccProjectUniqueName2 = ..\\..\\..\\System7\\System7.Debug\\System7.Debug.vbproj
+		SccProjectTopLevelParentUniqueName2 = System7_cspark.sln
+		SccProjectName2 = ../../../System7/System7.Debug
+		SccLocalPath2 = ..\\..\\..\\System7\\System7.Debug
+		SccLocalPath3 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A09E11D-ED45-4773-B465-9003E1947E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A09E11D-ED45-4773-B465-9003E1947E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A09E11D-ED45-4773-B465-9003E1947E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A09E11D-ED45-4773-B465-9003E1947E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6610B6-49C7-402C-B85B-392AC28E599F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6610B6-49C7-402C-B85B-392AC28E599F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6610B6-49C7-402C-B85B-392AC28E599F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6610B6-49C7-402C-B85B-392AC28E599F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85498280-E40B-469B-A3BA-D2E5D4043159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85498280-E40B-469B-A3BA-D2E5D4043159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85498280-E40B-469B-A3BA-D2E5D4043159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85498280-E40B-469B-A3BA-D2E5D4043159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{882A7BCE-C705-44E9-9A30-0FE7814DF2A1} = {EEDF8F65-A166-42A4-B01D-05B288346DDC}
+		{5A09E11D-ED45-4773-B465-9003E1947E1F} = {882A7BCE-C705-44E9-9A30-0FE7814DF2A1}
+		{3A6610B6-49C7-402C-B85B-392AC28E599F} = {882A7BCE-C705-44E9-9A30-0FE7814DF2A1}
+		{85498280-E40B-469B-A3BA-D2E5D4043159} = {7EC61AE1-FB46-4746-9855-51C76B18576A}
+	EndGlobalSection
+EndGlobal

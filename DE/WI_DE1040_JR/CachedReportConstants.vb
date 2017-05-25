@@ -1,0 +1,4 @@
+﻿
+Class CachedReportConstants
+
+End Class

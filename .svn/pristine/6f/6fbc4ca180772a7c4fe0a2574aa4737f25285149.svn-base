@@ -1,0 +1,806 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class QMG101
+    Inherits Base7.Form
+
+    'UserControl1은 Dispose를 재정의하여 구성 요소 목록을 정리합니다.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Windows Form 디자이너에 필요합니다.
+    Private components As System.ComponentModel.IContainer
+
+    '참고: 다음 프로시저는 Windows Form 디자이너에 필요합니다.
+    '수정하려면 Windows Form 디자이너를 사용하십시오.  
+    '코드 편집기를 사용하여 수정하지 마십시오.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
+        Me.EPanel1 = New Frame7.ePanel()
+        Me.bad_id = New Frame7.eText()
+        Me.fr_dt = New Frame7.eDate()
+        Me.fac_cd = New Frame7.eCombo()
+        Me.to_dt = New Frame7.eDate()
+        Me.qc_uid = New Frame7.eText()
+        Me.EPanel2 = New Frame7.ePanel()
+        Me.SplitContainer2 = New System.Windows.Forms.SplitContainer()
+        Me.g10 = New Frame7.eGrid()
+        Me.XtraTabControl1 = New DevExpress.XtraTab.XtraTabControl()
+        Me.XtraTabPage1 = New DevExpress.XtraTab.XtraTabPage()
+        Me.bad_qty = New Frame7.eText()
+        Me.qc_nm = New Frame7.eText()
+        Me.act_dsc = New Frame7.eMemo()
+        Me.bad_dsc = New Frame7.eMemo()
+        Me.out_qty = New Frame7.eText()
+        Me.rtn_qty = New Frame7.eText()
+        Me.sel_qty = New Frame7.eText()
+        Me.rw_qty = New Frame7.eText()
+        Me.spc_qty = New Frame7.eText()
+        Me.iss_plc = New Frame7.eText()
+        Me.XtraTabPage2 = New DevExpress.XtraTab.XtraTabPage()
+        Me.req_id = New Frame7.eText()
+        Me.req_dept = New Frame7.eText()
+        Me.rtn2_dept = New Frame7.eText()
+        Me.req_dsc = New Frame7.eMemo()
+        Me.req_nm = New Frame7.eText()
+        Me.rtn_dept = New Frame7.eText()
+        Me.rtn_dt = New Frame7.eDate()
+        Me.req_dt = New Frame7.eDate()
+        Me.req_dept_nm = New Frame7.eText()
+        Me.rtn_dept_nm = New Frame7.eText()
+        Me.rtn2_dept_nm = New Frame7.eText()
+        Me.req_rid = New Frame7.eText()
+        Me.XtraTabPage3 = New DevExpress.XtraTab.XtraTabPage()
+        Me.req2id = New Frame7.eText()
+        Me.req2dt = New Frame7.eDate()
+        Me.rtn2dt = New Frame7.eDate()
+        Me.ntc_bc = New Frame7.eCombo()
+        Me.cost_bc = New Frame7.eCombo()
+        Me.done_bc = New Frame7.eCombo()
+        Me.act_dt = New Frame7.eDate()
+        Me.req2dept = New Frame7.eText()
+        Me.req2dsc = New Frame7.eMemo()
+        Me.req2nm = New Frame7.eText()
+        Me.req2deptnm = New Frame7.eText()
+        Me.req2rid = New Frame7.eText()
+        Me.XtraTabPage4 = New DevExpress.XtraTab.XtraTabPage()
+        Me.ent_id = New Frame7.eText()
+        Me.act2dt = New Frame7.eDate()
+        Me.stat_bc = New Frame7.eCombo()
+        Me.insp_dsc = New Frame7.eMemo()
+        Me.ent_dt = New Frame7.eDate()
+        Me.oby_dsc = New Frame7.eMemo()
+        Me.ent_rid = New Frame7.eText()
+        Me.ent_nm = New Frame7.eText()
+        Me.plan_dt = New Frame7.eDate()
+        Me.imp_dsc = New Frame7.eMemo()
+        Me.XtraTabPage5 = New DevExpress.XtraTab.XtraTabPage()
+        Me.g50 = New Frame7.eGrid()
+        Me.SplitContainer1.Panel1.SuspendLayout()
+        Me.SplitContainer1.Panel2.SuspendLayout()
+        Me.SplitContainer1.SuspendLayout()
+        CType(Me.EPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.EPanel1.SuspendLayout()
+        CType(Me.EPanel2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.EPanel2.SuspendLayout()
+        Me.SplitContainer2.Panel1.SuspendLayout()
+        Me.SplitContainer2.Panel2.SuspendLayout()
+        Me.SplitContainer2.SuspendLayout()
+        CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.XtraTabControl1.SuspendLayout()
+        Me.XtraTabPage1.SuspendLayout()
+        Me.XtraTabPage2.SuspendLayout()
+        Me.XtraTabPage3.SuspendLayout()
+        Me.XtraTabPage4.SuspendLayout()
+        Me.XtraTabPage5.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'SplitContainer1
+        '
+        Me.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1
+        Me.SplitContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.SplitContainer1.Name = "SplitContainer1"
+        Me.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal
+        '
+        'SplitContainer1.Panel1
+        '
+        Me.SplitContainer1.Panel1.Controls.Add(Me.EPanel1)
+        '
+        'SplitContainer1.Panel2
+        '
+        Me.SplitContainer1.Panel2.Controls.Add(Me.EPanel2)
+        Me.SplitContainer1.Size = New System.Drawing.Size(1025, 585)
+        Me.SplitContainer1.SplitterDistance = 57
+        Me.SplitContainer1.TabIndex = 0
+        '
+        'EPanel1
+        '
+        Me.EPanel1.Controls.Add(Me.bad_id)
+        Me.EPanel1.Controls.Add(Me.fr_dt)
+        Me.EPanel1.Controls.Add(Me.fac_cd)
+        Me.EPanel1.Controls.Add(Me.to_dt)
+        Me.EPanel1.Controls.Add(Me.qc_uid)
+        Me.EPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.EPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.EPanel1.Name = "EPanel1"
+        Me.EPanel1.Size = New System.Drawing.Size(1025, 57)
+        Me.EPanel1.TabIndex = 1
+        Me.EPanel1.Text = "     검색"
+        '
+        'bad_id
+        '
+        Me.bad_id.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.bad_id.Location = New System.Drawing.Point(836, 28)
+        Me.bad_id.Name = "bad_id"
+        Me.bad_id.Size = New System.Drawing.Size(240, 21)
+        Me.bad_id.TabIndex = 13
+        Me.bad_id.Title = "부적합ID"
+        '
+        'fr_dt
+        '
+        Me.fr_dt.Location = New System.Drawing.Point(268, 28)
+        Me.fr_dt.Name = "fr_dt"
+        Me.fr_dt.Size = New System.Drawing.Size(240, 21)
+        Me.fr_dt.TabIndex = 16
+        Me.fr_dt.Title = "발생기간(fr)"
+        '
+        'fac_cd
+        '
+        Me.fac_cd.Location = New System.Drawing.Point(12, 28)
+        Me.fac_cd.Name = "fac_cd"
+        Me.fac_cd.Size = New System.Drawing.Size(240, 21)
+        Me.fac_cd.TabIndex = 13
+        Me.fac_cd.Title = "공장"
+        '
+        'to_dt
+        '
+        Me.to_dt.Location = New System.Drawing.Point(516, 28)
+        Me.to_dt.Name = "to_dt"
+        Me.to_dt.Size = New System.Drawing.Size(120, 21)
+        Me.to_dt.TabIndex = 20
+        Me.to_dt.Title = "발생기간(to)"
+        Me.to_dt.TitleWidth = 0
+        '
+        'qc_uid
+        '
+        Me.qc_uid.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.qc_uid.Location = New System.Drawing.Point(668, 32)
+        Me.qc_uid.Name = "qc_uid"
+        Me.qc_uid.Size = New System.Drawing.Size(240, 21)
+        Me.qc_uid.TabIndex = 0
+        Me.qc_uid.Title = "품질담당자ID"
+        '
+        'EPanel2
+        '
+        Me.EPanel2.Controls.Add(Me.SplitContainer2)
+        Me.EPanel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.EPanel2.Location = New System.Drawing.Point(0, 0)
+        Me.EPanel2.Name = "EPanel2"
+        Me.EPanel2.Size = New System.Drawing.Size(1025, 524)
+        Me.EPanel2.TabIndex = 0
+        Me.EPanel2.Text = "     EPanel2"
+        '
+        'SplitContainer2
+        '
+        Me.SplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer2.FixedPanel = System.Windows.Forms.FixedPanel.Panel2
+        Me.SplitContainer2.Location = New System.Drawing.Point(2, 23)
+        Me.SplitContainer2.Name = "SplitContainer2"
+        Me.SplitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal
+        '
+        'SplitContainer2.Panel1
+        '
+        Me.SplitContainer2.Panel1.Controls.Add(Me.g10)
+        '
+        'SplitContainer2.Panel2
+        '
+        Me.SplitContainer2.Panel2.Controls.Add(Me.XtraTabControl1)
+        Me.SplitContainer2.Size = New System.Drawing.Size(1021, 499)
+        Me.SplitContainer2.SplitterDistance = 253
+        Me.SplitContainer2.TabIndex = 2
+        '
+        'g10
+        '
+        Me.g10.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.g10.Location = New System.Drawing.Point(0, 0)
+        Me.g10.Name = "g10"
+        Me.g10.ReadOnly = False
+        Me.g10.RowHeight = -1
+        Me.g10.Size = New System.Drawing.Size(1021, 253)
+        Me.g10.TabIndex = 0
+        '
+        'XtraTabControl1
+        '
+        Me.XtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.XtraTabControl1.Location = New System.Drawing.Point(0, 0)
+        Me.XtraTabControl1.Name = "XtraTabControl1"
+        Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
+        Me.XtraTabControl1.Size = New System.Drawing.Size(1021, 242)
+        Me.XtraTabControl1.TabIndex = 2
+        Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage1, Me.XtraTabPage2, Me.XtraTabPage3, Me.XtraTabPage4, Me.XtraTabPage5})
+        '
+        'XtraTabPage1
+        '
+        Me.XtraTabPage1.Controls.Add(Me.bad_qty)
+        Me.XtraTabPage1.Controls.Add(Me.qc_nm)
+        Me.XtraTabPage1.Controls.Add(Me.act_dsc)
+        Me.XtraTabPage1.Controls.Add(Me.bad_dsc)
+        Me.XtraTabPage1.Controls.Add(Me.out_qty)
+        Me.XtraTabPage1.Controls.Add(Me.rtn_qty)
+        Me.XtraTabPage1.Controls.Add(Me.sel_qty)
+        Me.XtraTabPage1.Controls.Add(Me.rw_qty)
+        Me.XtraTabPage1.Controls.Add(Me.spc_qty)
+        Me.XtraTabPage1.Controls.Add(Me.iss_plc)
+        Me.XtraTabPage1.Name = "XtraTabPage1"
+        Me.XtraTabPage1.Size = New System.Drawing.Size(1014, 212)
+        Me.XtraTabPage1.Text = "상세내역"
+        '
+        'bad_qty
+        '
+        Me.bad_qty.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.bad_qty.Location = New System.Drawing.Point(12, 8)
+        Me.bad_qty.Name = "bad_qty"
+        Me.bad_qty.Size = New System.Drawing.Size(200, 21)
+        Me.bad_qty.TabIndex = 22
+        Me.bad_qty.Title = "불량수량"
+        Me.bad_qty.TitleWidth = 100
+        '
+        'qc_nm
+        '
+        Me.qc_nm.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.qc_nm.Location = New System.Drawing.Point(444, 32)
+        Me.qc_nm.Name = "qc_nm"
+        Me.qc_nm.Size = New System.Drawing.Size(240, 21)
+        Me.qc_nm.TabIndex = 12
+        Me.qc_nm.Title = "품질담당자"
+        '
+        'act_dsc
+        '
+        Me.act_dsc.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.act_dsc.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.act_dsc.Location = New System.Drawing.Point(12, 120)
+        Me.act_dsc.Name = "act_dsc"
+        Me.act_dsc.Size = New System.Drawing.Size(876, 89)
+        Me.act_dsc.TabIndex = 11
+        Me.act_dsc.Title = "조치내용"
+        Me.act_dsc.TitleWidth = 100
+        '
+        'bad_dsc
+        '
+        Me.bad_dsc.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.bad_dsc.Location = New System.Drawing.Point(12, 80)
+        Me.bad_dsc.Name = "bad_dsc"
+        Me.bad_dsc.Size = New System.Drawing.Size(876, 36)
+        Me.bad_dsc.TabIndex = 10
+        Me.bad_dsc.Title = "상세내용"
+        Me.bad_dsc.TitleWidth = 100
+        '
+        'out_qty
+        '
+        Me.out_qty.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.out_qty.Location = New System.Drawing.Point(224, 56)
+        Me.out_qty.Name = "out_qty"
+        Me.out_qty.Size = New System.Drawing.Size(200, 21)
+        Me.out_qty.TabIndex = 8
+        Me.out_qty.Title = "폐기수량"
+        Me.out_qty.TitleWidth = 100
+        '
+        'rtn_qty
+        '
+        Me.rtn_qty.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.rtn_qty.Location = New System.Drawing.Point(224, 32)
+        Me.rtn_qty.Name = "rtn_qty"
+        Me.rtn_qty.Size = New System.Drawing.Size(200, 21)
+        Me.rtn_qty.TabIndex = 7
+        Me.rtn_qty.Title = "반송수량"
+        Me.rtn_qty.TitleWidth = 100
+        '
+        'sel_qty
+        '
+        Me.sel_qty.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.sel_qty.Location = New System.Drawing.Point(12, 56)
+        Me.sel_qty.Name = "sel_qty"
+        Me.sel_qty.Size = New System.Drawing.Size(200, 21)
+        Me.sel_qty.TabIndex = 6
+        Me.sel_qty.Title = "선별수량"
+        Me.sel_qty.TitleWidth = 100
+        '
+        'rw_qty
+        '
+        Me.rw_qty.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.rw_qty.Location = New System.Drawing.Point(12, 32)
+        Me.rw_qty.Name = "rw_qty"
+        Me.rw_qty.Size = New System.Drawing.Size(200, 21)
+        Me.rw_qty.TabIndex = 5
+        Me.rw_qty.Title = "R/W수량"
+        Me.rw_qty.TitleWidth = 100
+        '
+        'spc_qty
+        '
+        Me.spc_qty.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.spc_qty.Location = New System.Drawing.Point(224, 8)
+        Me.spc_qty.Name = "spc_qty"
+        Me.spc_qty.Size = New System.Drawing.Size(200, 21)
+        Me.spc_qty.TabIndex = 4
+        Me.spc_qty.Title = "특채수량"
+        Me.spc_qty.TitleWidth = 100
+        '
+        'iss_plc
+        '
+        Me.iss_plc.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.iss_plc.Location = New System.Drawing.Point(444, 56)
+        Me.iss_plc.Name = "iss_plc"
+        Me.iss_plc.Size = New System.Drawing.Size(240, 21)
+        Me.iss_plc.TabIndex = 2
+        Me.iss_plc.Title = "발생장소"
+        '
+        'XtraTabPage2
+        '
+        Me.XtraTabPage2.Controls.Add(Me.req_id)
+        Me.XtraTabPage2.Controls.Add(Me.req_dept)
+        Me.XtraTabPage2.Controls.Add(Me.rtn2_dept)
+        Me.XtraTabPage2.Controls.Add(Me.req_dsc)
+        Me.XtraTabPage2.Controls.Add(Me.req_nm)
+        Me.XtraTabPage2.Controls.Add(Me.rtn_dept)
+        Me.XtraTabPage2.Controls.Add(Me.rtn_dt)
+        Me.XtraTabPage2.Controls.Add(Me.req_dt)
+        Me.XtraTabPage2.Controls.Add(Me.req_dept_nm)
+        Me.XtraTabPage2.Controls.Add(Me.rtn_dept_nm)
+        Me.XtraTabPage2.Controls.Add(Me.rtn2_dept_nm)
+        Me.XtraTabPage2.Controls.Add(Me.req_rid)
+        Me.XtraTabPage2.Name = "XtraTabPage2"
+        Me.XtraTabPage2.Size = New System.Drawing.Size(1014, 212)
+        Me.XtraTabPage2.Text = "시정조치"
+        '
+        'req_id
+        '
+        Me.req_id.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req_id.Location = New System.Drawing.Point(644, 32)
+        Me.req_id.Name = "req_id"
+        Me.req_id.Size = New System.Drawing.Size(240, 21)
+        Me.req_id.TabIndex = 36
+        Me.req_id.Title = "의뢰자"
+        '
+        'req_dept
+        '
+        Me.req_dept.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req_dept.Location = New System.Drawing.Point(644, 8)
+        Me.req_dept.Name = "req_dept"
+        Me.req_dept.Size = New System.Drawing.Size(240, 21)
+        Me.req_dept.TabIndex = 34
+        Me.req_dept.Title = "의뢰부서"
+        '
+        'rtn2_dept
+        '
+        Me.rtn2_dept.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.rtn2_dept.Location = New System.Drawing.Point(264, 32)
+        Me.rtn2_dept.Name = "rtn2_dept"
+        Me.rtn2_dept.Size = New System.Drawing.Size(240, 21)
+        Me.rtn2_dept.TabIndex = 32
+        Me.rtn2_dept.Title = "변경회신부서"
+        '
+        'req_dsc
+        '
+        Me.req_dsc.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.req_dsc.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req_dsc.Location = New System.Drawing.Point(12, 56)
+        Me.req_dsc.Name = "req_dsc"
+        Me.req_dsc.Size = New System.Drawing.Size(996, 153)
+        Me.req_dsc.TabIndex = 38
+        Me.req_dsc.Title = "의뢰사항"
+        '
+        'req_nm
+        '
+        Me.req_nm.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req_nm.Location = New System.Drawing.Point(768, 32)
+        Me.req_nm.Name = "req_nm"
+        Me.req_nm.Size = New System.Drawing.Size(240, 21)
+        Me.req_nm.TabIndex = 37
+        Me.req_nm.Title = "의뢰자명"
+        '
+        'rtn_dept
+        '
+        Me.rtn_dept.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.rtn_dept.Location = New System.Drawing.Point(264, 8)
+        Me.rtn_dept.Name = "rtn_dept"
+        Me.rtn_dept.Size = New System.Drawing.Size(240, 21)
+        Me.rtn_dept.TabIndex = 30
+        Me.rtn_dept.Title = "회신부서"
+        '
+        'rtn_dt
+        '
+        Me.rtn_dt.Location = New System.Drawing.Point(12, 32)
+        Me.rtn_dt.Name = "rtn_dt"
+        Me.rtn_dt.Size = New System.Drawing.Size(240, 21)
+        Me.rtn_dt.TabIndex = 29
+        Me.rtn_dt.Title = "회신요구일"
+        '
+        'req_dt
+        '
+        Me.req_dt.Location = New System.Drawing.Point(12, 8)
+        Me.req_dt.Name = "req_dt"
+        Me.req_dt.Size = New System.Drawing.Size(240, 21)
+        Me.req_dt.TabIndex = 28
+        Me.req_dt.Title = "의뢰일자"
+        '
+        'req_dept_nm
+        '
+        Me.req_dept_nm.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req_dept_nm.Location = New System.Drawing.Point(768, 8)
+        Me.req_dept_nm.Name = "req_dept_nm"
+        Me.req_dept_nm.Size = New System.Drawing.Size(240, 21)
+        Me.req_dept_nm.TabIndex = 35
+        Me.req_dept_nm.Title = "의뢰부서명"
+        '
+        'rtn_dept_nm
+        '
+        Me.rtn_dept_nm.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.rtn_dept_nm.Location = New System.Drawing.Point(388, 8)
+        Me.rtn_dept_nm.Name = "rtn_dept_nm"
+        Me.rtn_dept_nm.Size = New System.Drawing.Size(240, 21)
+        Me.rtn_dept_nm.TabIndex = 31
+        Me.rtn_dept_nm.Title = "회신부서명"
+        '
+        'rtn2_dept_nm
+        '
+        Me.rtn2_dept_nm.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.rtn2_dept_nm.Location = New System.Drawing.Point(388, 32)
+        Me.rtn2_dept_nm.Name = "rtn2_dept_nm"
+        Me.rtn2_dept_nm.Size = New System.Drawing.Size(240, 21)
+        Me.rtn2_dept_nm.TabIndex = 33
+        Me.rtn2_dept_nm.Title = "변경회신부서명"
+        '
+        'req_rid
+        '
+        Me.req_rid.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req_rid.Location = New System.Drawing.Point(942, 35)
+        Me.req_rid.Name = "req_rid"
+        Me.req_rid.Size = New System.Drawing.Size(100, 21)
+        Me.req_rid.TabIndex = 39
+        Me.req_rid.Title = "req_rid"
+        '
+        'XtraTabPage3
+        '
+        Me.XtraTabPage3.Controls.Add(Me.req2id)
+        Me.XtraTabPage3.Controls.Add(Me.req2dt)
+        Me.XtraTabPage3.Controls.Add(Me.rtn2dt)
+        Me.XtraTabPage3.Controls.Add(Me.ntc_bc)
+        Me.XtraTabPage3.Controls.Add(Me.cost_bc)
+        Me.XtraTabPage3.Controls.Add(Me.done_bc)
+        Me.XtraTabPage3.Controls.Add(Me.act_dt)
+        Me.XtraTabPage3.Controls.Add(Me.req2dept)
+        Me.XtraTabPage3.Controls.Add(Me.req2dsc)
+        Me.XtraTabPage3.Controls.Add(Me.req2nm)
+        Me.XtraTabPage3.Controls.Add(Me.req2deptnm)
+        Me.XtraTabPage3.Controls.Add(Me.req2rid)
+        Me.XtraTabPage3.Name = "XtraTabPage3"
+        Me.XtraTabPage3.Size = New System.Drawing.Size(1014, 212)
+        Me.XtraTabPage3.Text = "입고불량통보"
+        '
+        'req2id
+        '
+        Me.req2id.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req2id.Location = New System.Drawing.Point(516, 56)
+        Me.req2id.Name = "req2id"
+        Me.req2id.Size = New System.Drawing.Size(240, 21)
+        Me.req2id.TabIndex = 37
+        Me.req2id.Title = "통보자"
+        '
+        'req2dt
+        '
+        Me.req2dt.Location = New System.Drawing.Point(12, 8)
+        Me.req2dt.Name = "req2dt"
+        Me.req2dt.Size = New System.Drawing.Size(240, 21)
+        Me.req2dt.TabIndex = 32
+        Me.req2dt.Title = "통보일자"
+        '
+        'rtn2dt
+        '
+        Me.rtn2dt.Location = New System.Drawing.Point(12, 32)
+        Me.rtn2dt.Name = "rtn2dt"
+        Me.rtn2dt.Size = New System.Drawing.Size(240, 21)
+        Me.rtn2dt.TabIndex = 33
+        Me.rtn2dt.Title = "회신요구일"
+        '
+        'ntc_bc
+        '
+        Me.ntc_bc.Location = New System.Drawing.Point(264, 56)
+        Me.ntc_bc.Name = "ntc_bc"
+        Me.ntc_bc.Size = New System.Drawing.Size(240, 21)
+        Me.ntc_bc.TabIndex = 43
+        Me.ntc_bc.Title = "통보방법"
+        '
+        'cost_bc
+        '
+        Me.cost_bc.Location = New System.Drawing.Point(264, 32)
+        Me.cost_bc.Name = "cost_bc"
+        Me.cost_bc.Size = New System.Drawing.Size(240, 21)
+        Me.cost_bc.TabIndex = 42
+        Me.cost_bc.Title = "비용공제"
+        '
+        'done_bc
+        '
+        Me.done_bc.Location = New System.Drawing.Point(264, 8)
+        Me.done_bc.Name = "done_bc"
+        Me.done_bc.Size = New System.Drawing.Size(240, 21)
+        Me.done_bc.TabIndex = 41
+        Me.done_bc.Title = "불량처리"
+        '
+        'act_dt
+        '
+        Me.act_dt.Location = New System.Drawing.Point(12, 56)
+        Me.act_dt.Name = "act_dt"
+        Me.act_dt.Size = New System.Drawing.Size(240, 21)
+        Me.act_dt.TabIndex = 40
+        Me.act_dt.Title = "회신일자"
+        '
+        'req2dept
+        '
+        Me.req2dept.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req2dept.Location = New System.Drawing.Point(516, 32)
+        Me.req2dept.Name = "req2dept"
+        Me.req2dept.Size = New System.Drawing.Size(240, 21)
+        Me.req2dept.TabIndex = 34
+        Me.req2dept.Title = "통보부서"
+        '
+        'req2dsc
+        '
+        Me.req2dsc.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.req2dsc.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req2dsc.Location = New System.Drawing.Point(12, 80)
+        Me.req2dsc.Name = "req2dsc"
+        Me.req2dsc.Size = New System.Drawing.Size(988, 129)
+        Me.req2dsc.TabIndex = 39
+        Me.req2dsc.Title = "의뢰사항"
+        '
+        'req2nm
+        '
+        Me.req2nm.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req2nm.Location = New System.Drawing.Point(640, 56)
+        Me.req2nm.Name = "req2nm"
+        Me.req2nm.Size = New System.Drawing.Size(240, 21)
+        Me.req2nm.TabIndex = 38
+        Me.req2nm.Title = "통보자명"
+        '
+        'req2deptnm
+        '
+        Me.req2deptnm.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req2deptnm.Location = New System.Drawing.Point(640, 32)
+        Me.req2deptnm.Name = "req2deptnm"
+        Me.req2deptnm.Size = New System.Drawing.Size(240, 21)
+        Me.req2deptnm.TabIndex = 35
+        Me.req2deptnm.Title = "통보부서명"
+        '
+        'req2rid
+        '
+        Me.req2rid.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.req2rid.Location = New System.Drawing.Point(516, 8)
+        Me.req2rid.Name = "req2rid"
+        Me.req2rid.Size = New System.Drawing.Size(100, 21)
+        Me.req2rid.TabIndex = 36
+        Me.req2rid.Title = "req_rid"
+        Me.req2rid.Visible = False
+        '
+        'XtraTabPage4
+        '
+        Me.XtraTabPage4.Controls.Add(Me.ent_id)
+        Me.XtraTabPage4.Controls.Add(Me.act2dt)
+        Me.XtraTabPage4.Controls.Add(Me.stat_bc)
+        Me.XtraTabPage4.Controls.Add(Me.insp_dsc)
+        Me.XtraTabPage4.Controls.Add(Me.ent_dt)
+        Me.XtraTabPage4.Controls.Add(Me.oby_dsc)
+        Me.XtraTabPage4.Controls.Add(Me.ent_rid)
+        Me.XtraTabPage4.Controls.Add(Me.ent_nm)
+        Me.XtraTabPage4.Controls.Add(Me.plan_dt)
+        Me.XtraTabPage4.Controls.Add(Me.imp_dsc)
+        Me.XtraTabPage4.Name = "XtraTabPage4"
+        Me.XtraTabPage4.Size = New System.Drawing.Size(1014, 212)
+        Me.XtraTabPage4.Text = "개선대책"
+        '
+        'ent_id
+        '
+        Me.ent_id.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ent_id.Location = New System.Drawing.Point(516, 32)
+        Me.ent_id.Name = "ent_id"
+        Me.ent_id.Size = New System.Drawing.Size(240, 21)
+        Me.ent_id.TabIndex = 55
+        Me.ent_id.Title = "작성자"
+        '
+        'act2dt
+        '
+        Me.act2dt.Location = New System.Drawing.Point(264, 32)
+        Me.act2dt.Name = "act2dt"
+        Me.act2dt.Size = New System.Drawing.Size(240, 21)
+        Me.act2dt.TabIndex = 51
+        Me.act2dt.Title = "개선실시일"
+        '
+        'stat_bc
+        '
+        Me.stat_bc.Location = New System.Drawing.Point(12, 32)
+        Me.stat_bc.Name = "stat_bc"
+        Me.stat_bc.Size = New System.Drawing.Size(240, 21)
+        Me.stat_bc.TabIndex = 52
+        Me.stat_bc.Title = "진행상태"
+        '
+        'insp_dsc
+        '
+        Me.insp_dsc.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.insp_dsc.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.insp_dsc.Location = New System.Drawing.Point(12, 144)
+        Me.insp_dsc.Name = "insp_dsc"
+        Me.insp_dsc.Size = New System.Drawing.Size(988, 65)
+        Me.insp_dsc.TabIndex = 54
+        Me.insp_dsc.Title = "검사"
+        '
+        'ent_dt
+        '
+        Me.ent_dt.Location = New System.Drawing.Point(12, 8)
+        Me.ent_dt.Name = "ent_dt"
+        Me.ent_dt.Size = New System.Drawing.Size(240, 21)
+        Me.ent_dt.TabIndex = 46
+        Me.ent_dt.Title = "작성일자"
+        '
+        'oby_dsc
+        '
+        Me.oby_dsc.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.oby_dsc.Location = New System.Drawing.Point(12, 121)
+        Me.oby_dsc.Name = "oby_dsc"
+        Me.oby_dsc.Size = New System.Drawing.Size(988, 21)
+        Me.oby_dsc.TabIndex = 53
+        Me.oby_dsc.Title = "준수"
+        '
+        'ent_rid
+        '
+        Me.ent_rid.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ent_rid.Location = New System.Drawing.Point(886, 32)
+        Me.ent_rid.Name = "ent_rid"
+        Me.ent_rid.Size = New System.Drawing.Size(72, 21)
+        Me.ent_rid.TabIndex = 48
+        Me.ent_rid.Title = "ent_rid"
+        Me.ent_rid.Visible = False
+        '
+        'ent_nm
+        '
+        Me.ent_nm.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ent_nm.Location = New System.Drawing.Point(640, 32)
+        Me.ent_nm.Name = "ent_nm"
+        Me.ent_nm.Size = New System.Drawing.Size(240, 21)
+        Me.ent_nm.TabIndex = 49
+        Me.ent_nm.Title = "작성자명"
+        '
+        'plan_dt
+        '
+        Me.plan_dt.Location = New System.Drawing.Point(264, 8)
+        Me.plan_dt.Name = "plan_dt"
+        Me.plan_dt.Size = New System.Drawing.Size(240, 21)
+        Me.plan_dt.TabIndex = 47
+        Me.plan_dt.Title = "개선계획일"
+        '
+        'imp_dsc
+        '
+        Me.imp_dsc.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.imp_dsc.Location = New System.Drawing.Point(12, 56)
+        Me.imp_dsc.Name = "imp_dsc"
+        Me.imp_dsc.Size = New System.Drawing.Size(988, 63)
+        Me.imp_dsc.TabIndex = 50
+        Me.imp_dsc.Title = "개선대책"
+        '
+        'XtraTabPage5
+        '
+        Me.XtraTabPage5.Controls.Add(Me.g50)
+        Me.XtraTabPage5.Name = "XtraTabPage5"
+        Me.XtraTabPage5.Size = New System.Drawing.Size(1014, 212)
+        Me.XtraTabPage5.Text = "관련문서"
+        '
+        'g50
+        '
+        Me.g50.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.g50.Location = New System.Drawing.Point(0, 0)
+        Me.g50.Name = "g50"
+        Me.g50.ReadOnly = False
+        Me.g50.RecordNavigator = False
+        Me.g50.RowHeight = -1
+        Me.g50.Size = New System.Drawing.Size(1014, 212)
+        Me.g50.TabIndex = 2
+        '
+        'QMG101
+        '
+        Me.Controls.Add(Me.SplitContainer1)
+        Me.Name = "QMG101"
+        Me.Size = New System.Drawing.Size(1025, 585)
+        Me.Controls.SetChildIndex(Me.SplitContainer1, 0)
+        Me.SplitContainer1.Panel1.ResumeLayout(False)
+        Me.SplitContainer1.Panel2.ResumeLayout(False)
+        Me.SplitContainer1.ResumeLayout(False)
+        CType(Me.EPanel1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.EPanel1.ResumeLayout(False)
+        CType(Me.EPanel2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.EPanel2.ResumeLayout(False)
+        Me.SplitContainer2.Panel1.ResumeLayout(False)
+        Me.SplitContainer2.Panel2.ResumeLayout(False)
+        Me.SplitContainer2.ResumeLayout(False)
+        CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.XtraTabControl1.ResumeLayout(False)
+        Me.XtraTabPage1.ResumeLayout(False)
+        Me.XtraTabPage2.ResumeLayout(False)
+        Me.XtraTabPage3.ResumeLayout(False)
+        Me.XtraTabPage4.ResumeLayout(False)
+        Me.XtraTabPage5.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents SplitContainer1 As System.Windows.Forms.SplitContainer
+    Friend WithEvents EPanel1 As Frame7.ePanel
+    Friend WithEvents fac_cd As Frame7.eCombo
+    Friend WithEvents fr_dt As Frame7.eDate
+    Friend WithEvents to_dt As Frame7.eDate
+    Friend WithEvents XtraTabControl1 As DevExpress.XtraTab.XtraTabControl
+    Friend WithEvents XtraTabPage1 As DevExpress.XtraTab.XtraTabPage
+    Friend WithEvents XtraTabPage2 As DevExpress.XtraTab.XtraTabPage
+    Friend WithEvents bad_id As Frame7.eText
+    Friend WithEvents qc_nm As Frame7.eText
+    Friend WithEvents act_dsc As Frame7.eMemo
+    Friend WithEvents bad_dsc As Frame7.eMemo
+    Friend WithEvents out_qty As Frame7.eText
+    Friend WithEvents rtn_qty As Frame7.eText
+    Friend WithEvents sel_qty As Frame7.eText
+    Friend WithEvents rw_qty As Frame7.eText
+    Friend WithEvents spc_qty As Frame7.eText
+    Friend WithEvents iss_plc As Frame7.eText
+    Friend WithEvents qc_uid As Frame7.eText
+    Friend WithEvents XtraTabPage3 As DevExpress.XtraTab.XtraTabPage
+    Friend WithEvents XtraTabPage4 As DevExpress.XtraTab.XtraTabPage
+    Friend WithEvents EPanel2 As Frame7.ePanel
+    Friend WithEvents SplitContainer2 As System.Windows.Forms.SplitContainer
+    Friend WithEvents g10 As Frame7.eGrid
+    Friend WithEvents bad_qty As Frame7.eText
+    Friend WithEvents XtraTabPage5 As DevExpress.XtraTab.XtraTabPage
+    Friend WithEvents g50 As Frame7.eGrid
+    Friend WithEvents req_id As Frame7.eText
+    Friend WithEvents req_dept As Frame7.eText
+    Friend WithEvents rtn2_dept As Frame7.eText
+    Friend WithEvents req_dsc As Frame7.eMemo
+    Friend WithEvents req_nm As Frame7.eText
+    Friend WithEvents rtn_dept As Frame7.eText
+    Friend WithEvents rtn_dt As Frame7.eDate
+    Friend WithEvents req_dt As Frame7.eDate
+    Friend WithEvents req_dept_nm As Frame7.eText
+    Friend WithEvents rtn_dept_nm As Frame7.eText
+    Friend WithEvents rtn2_dept_nm As Frame7.eText
+    Friend WithEvents req2id As Frame7.eText
+    Friend WithEvents req2dt As Frame7.eDate
+    Friend WithEvents rtn2dt As Frame7.eDate
+    Friend WithEvents ntc_bc As Frame7.eCombo
+    Friend WithEvents cost_bc As Frame7.eCombo
+    Friend WithEvents done_bc As Frame7.eCombo
+    Friend WithEvents act_dt As Frame7.eDate
+    Friend WithEvents req2dept As Frame7.eText
+    Friend WithEvents req2dsc As Frame7.eMemo
+    Friend WithEvents req2nm As Frame7.eText
+    Friend WithEvents req2deptnm As Frame7.eText
+    Friend WithEvents req2rid As Frame7.eText
+    Friend WithEvents ent_id As Frame7.eText
+    Friend WithEvents act2dt As Frame7.eDate
+    Friend WithEvents stat_bc As Frame7.eCombo
+    Friend WithEvents insp_dsc As Frame7.eMemo
+    Friend WithEvents ent_dt As Frame7.eDate
+    Friend WithEvents oby_dsc As Frame7.eMemo
+    Friend WithEvents ent_rid As Frame7.eText
+    Friend WithEvents ent_nm As Frame7.eText
+    Friend WithEvents plan_dt As Frame7.eDate
+    Friend WithEvents imp_dsc As Frame7.eMemo
+    Friend WithEvents req_rid As Frame7.eText
+
+End Class

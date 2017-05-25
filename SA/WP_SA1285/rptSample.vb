@@ -1,0 +1,4 @@
+﻿
+Class rptSample
+
+End Class

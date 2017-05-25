@@ -1,0 +1,102 @@
+﻿Imports Frame7
+Imports Base7
+Imports Base7.Shared
+Imports System.Data
+
+
+Public Class MMA100
+
+
+    Private Sub MMA100_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        '구매의뢰번호 자동채번 설정
+        req_no.CodeNo = "MMA100"        'Function dbo.[fnCodeNo]안에 LEB100에 대한 코딩을 해야 한다
+        req_no.CodeDateField = req_dt
+
+        Me.New_Form()
+    End Sub
+
+    Public Overrides Sub MenuButton_Click(ByVal mty As MenuType)
+        Select Case mty
+
+            Case MenuType.Save
+                If Me.Save = True Then Me.Open()
+
+            Case MenuType.Delete
+                'Me.WorkSets("sca100_f10").DeleteRow()   '특정Workset을 삭제
+
+            Case MenuType.New
+                Me.New_Form()
+
+            Case MenuType.Print
+                ' Me.Print()
+
+            Case Else
+                MyBase.MenuButton_Click(mty)        '나머지는 기본기능에 맡긴다
+
+        End Select
+
+    End Sub
+
+    Public Sub New_Form()
+        req_no.Text = ""
+        MyBase.Open()
+
+        g10.AddNewRow()
+    End Sub
+
+    Public Sub Open2(ByVal reqNo As String)
+
+        req_no.Text = reqNo
+
+        MyBase.Open()
+
+    End Sub
+
+    Public Sub Open3(ByVal Repno As String, ByVal Reqdt As String, ByVal frfac As String, ByVal InFac As String, ByVal InWh As String)
+
+        req_no.Text = Repno
+        req_dt.Text = Reqdt
+
+        req_bc.Text = frfac
+        in_fac.Text = InFac
+        in_wh.Text = InWh
+
+        MyBase.Open()
+
+        'XtraTabControl1.SelectedTabPageIndex = 0
+        'MyBase.Open(WorkSets("mma100_g10"))
+        'MyBase.Open(WorkSets("fax100_g10"))
+        'MyBase.Open(WorkSets("fax100_g20"))
+
+    End Sub
+
+    '' 자재 소요량 산출하여 구매의뢰 될때 사용
+    Public Sub Open4(ByVal dSet As DataSet)
+
+        Me.New_Form()
+        g10.DeleteBlankRow()
+
+        Dim i As Integer = 0
+        For Each dRow As DataRow In dSet.Tables(0).Rows
+            If ToStr(dRow("chk")) Then
+
+                If i = 0 Then
+                    ' cust_cd.Text = ToStr(dRow("cust_cd"))
+                    ' ent_bc.Text = "SD320100"    '출하매출
+                End If
+
+                g10.AddNewRow()
+                g10.Text("doc", i) = ToStr(dRow("mrp_no")) + ToStr(dRow("mrp_sq"))
+                g10.Text("itm_id", i) = ToStr(dRow("itm_id"))
+                g10.Text("itm_cd", i) = ToStr(dRow("itm_cd"))
+                g10.Text("dlv_dt", i) = ToStr(dRow("dlv_dt"))
+                g10.Text("cust_cd", i) = ToStr(dRow("cust_cd"))
+                g10.Text("req_qty", i) = ToDec(dRow("req_qty"))
+
+                i += 1
+            End If
+
+        Next
+    End Sub
+
+End Class

@@ -1,0 +1,35 @@
+﻿Imports Frame7
+Imports Base7
+Imports Base7.Shared
+Imports System.Data
+
+Public Class FAS500
+
+    Private Sub ast_insert_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ast_insert.Click
+        Dim p As New OpenParameters
+        p.Add("@work_ty", "insert")
+        p.Add("@de_monf", de_monf.Text)
+        p.Add("@de_mont", de_mont.Text)
+        p.Add("@div_cd", div_cd.Text)
+        p.Add("@ast_no", ast_no.Text)
+        p.Add("@ast_nm", ast_nm.Text)
+        p.Add("@grp1_cd", grp1_cd.Text)
+        p.Add("@grp2_cd", grp2_cd.Text)
+        Me.OpenDataSet("fas500_work", p)   'test_f30 WorkSet이 등록되어있어야 한다
+        Me.Open()
+    End Sub
+
+    Private Sub ast_delete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ast_delete.Click
+        Dim p As New OpenParameters
+        p.Add("@work_ty", "delete")
+        p.Add("@de_monf", de_monf.Text)
+        p.Add("@de_mont", de_mont.Text)
+        p.Add("@div_cd", div_cd.Text)
+        p.Add("@ast_no", ast_no.Text)
+        p.Add("@ast_nm", ast_nm.Text)
+        p.Add("@grp1_cd", grp1_cd.Text)
+        p.Add("@grp2_cd", grp2_cd.Text)
+        Me.OpenDataSet("fas500_work", p)   'test_f30 WorkSet이 등록되어있어야 한다
+        Me.Open()
+    End Sub
+End Class

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WP_EIS1010", "WP_EIS1010.vbproj", "{CCE1E76A-95B1-47C7-AD6F-4FE7B10F457B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCE1E76A-95B1-47C7-AD6F-4FE7B10F457B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE1E76A-95B1-47C7-AD6F-4FE7B10F457B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE1E76A-95B1-47C7-AD6F-4FE7B10F457B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE1E76A-95B1-47C7-AD6F-4FE7B10F457B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

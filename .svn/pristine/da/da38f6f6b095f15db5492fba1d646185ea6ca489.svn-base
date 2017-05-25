@@ -1,0 +1,25 @@
+﻿
+Imports System7.MainFrame
+'Imports System.Windows.Forms
+
+Public Class Debug
+    Private Sub Debug_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        Dim main As MainFrame.MainFrame = New MainFrame.MainFrame
+
+        If main IsNot Nothing Then
+
+            'main.AddWebList("CSI", "창신CNI", "ERP", "http://115.68.6.112/ERP_Service7/", "CSI")
+            'main.AddWebList("HJ", "화진테크", "ERP", "http://115.68.6.112/ERP_Service7/", "Smart")
+            'main.AddWebList("CMMS", "설비관리", "CMMS", "http://115.68.6.112/System7_Service7/", "CMMS")
+
+            'main.SetWebIndex(2)     '2번째 HJ를 기본 System으로 설정한다
+
+            Me.Controls.Add(main)
+
+            main.Dock = System.Windows.Forms.DockStyle.Fill
+            main.Show()
+        End If
+
+    End Sub
+End Class

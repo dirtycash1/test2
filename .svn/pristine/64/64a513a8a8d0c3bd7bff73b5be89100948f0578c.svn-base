@@ -1,0 +1,57 @@
+﻿Imports Frame7
+Imports Base7
+Imports Base7.Shared
+Imports System.Data
+
+Public Class FAS500
+
+    Private Sub ast_insert_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ast_insert.Click
+
+        If MessageYesNo("[" + de_monf.Text + "] " + "에서" + vbLf + "[" + de_mont.Text + "] " + "까지" + vbLf + _
+                        "기간을 상각처리 하시겠습니까?") <> MsgBoxResult.Yes Then
+            Exit Sub
+        End If
+
+        Dim p As New OpenParameters
+        p.Add("@work_ty", "insert")
+        p.Add("@de_monf", de_monf.Text)
+        p.Add("@de_mont", de_mont.Text)
+        p.Add("@div_cd", div_cd.Text)
+        p.Add("@ast_no", ast_no.Text)
+        p.Add("@ast_nm", ast_nm.Text)
+        p.Add("@grp1_cd", grp1_cd.Text)
+        p.Add("@grp2_cd", grp2_cd.Text)
+        Me.OpenDataSet("fas500_work", p)   'test_f30 WorkSet이 등록되어있어야 한다
+
+        de_monf.Text = de_monf.Text
+        de_mont.Text = de_mont.Text
+
+        Me.Open()
+
+    End Sub
+
+    Private Sub ast_delete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ast_delete.Click
+
+        If MessageYesNo("주의하세요" + vbLf + _
+                        "[" + de_monf.Text + "] " + "에서" + vbLf + "[" + de_mont.Text + "] " + "까지" + vbLf + _
+                        "기간의 상각금액을 삭제합니다" + vbLf + _
+                        "" + vbLf + _
+                        "개별자산 상각금액 삭제시 자산번호 검색 후 삭제 하세요") <> MsgBoxResult.Yes Then
+            Exit Sub
+        End If
+
+        Dim p As New OpenParameters
+        p.Add("@work_ty", "delete")
+        p.Add("@de_monf", de_monf.Text)
+        p.Add("@de_mont", de_mont.Text)
+        p.Add("@div_cd", div_cd.Text)
+        p.Add("@ast_no", ast_no.Text)
+        p.Add("@ast_nm", ast_nm.Text)
+        p.Add("@grp1_cd", grp1_cd.Text)
+        p.Add("@grp2_cd", grp2_cd.Text)
+        Me.OpenDataSet("fas500_work", p)   'test_f30 WorkSet이 등록되어있어야 한다
+        Me.Open()
+    End Sub
+
+
+End Class

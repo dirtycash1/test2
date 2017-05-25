@@ -1,0 +1,961 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class QML100
+    Inherits Base7.Form
+
+    'UserControl1은 Dispose를 재정의하여 구성 요소 목록을 정리합니다.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Windows Form 디자이너에 필요합니다.
+    Private components As System.ComponentModel.IContainer
+
+    '참고: 다음 프로시저는 Windows Form 디자이너에 필요합니다.
+    '수정하려면 Windows Form 디자이너를 사용하십시오.  
+    '코드 편집기를 사용하여 수정하지 마십시오.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
+        Me.SplitContainer2 = New System.Windows.Forms.SplitContainer()
+        Me.EPanel1 = New Frame7.ePanel()
+        Me.fr_dt = New Frame7.eDate()
+        Me.to_dt = New Frame7.eDate()
+        Me.EText5 = New Frame7.eText()
+        Me.EText6 = New Frame7.eText()
+        Me.ECombo1 = New Frame7.eCombo()
+        Me.EText8 = New Frame7.eText()
+        Me.g10 = New Frame7.eGrid()
+        Me.SplitContainer3 = New System.Windows.Forms.SplitContainer()
+        Me.f10 = New Frame7.ePanel()
+        Me.clm_no = New Frame7.eText()
+        Me.EText2 = New Frame7.eText()
+        Me.cust_cd = New Frame7.eText()
+        Me.EDate2 = New Frame7.eDate()
+        Me.EDate1 = New Frame7.eDate()
+        Me.EText1 = New Frame7.eText()
+        Me.clm_dt = New Frame7.eDate()
+        Me.ECheck1 = New Frame7.eCheck()
+        Me.EText3 = New Frame7.eText()
+        Me.EText7 = New Frame7.eText()
+        Me.EText9 = New Frame7.eText()
+        Me.cust_nm = New Frame7.eText()
+        Me.EText12 = New Frame7.eText()
+        Me.clm_dsc = New Frame7.eMemo()
+        Me.cust_no = New Frame7.eText()
+        Me.EText4 = New Frame7.eText()
+        Me.EText10 = New Frame7.eText()
+        Me.cust_dsc = New Frame7.eText()
+        Me.clm_bc = New Frame7.eCombo()
+        Me.EText11 = New Frame7.eText()
+        Me.stat_bc = New Frame7.eCombo()
+        Me.EPanel2 = New Frame7.ePanel()
+        Me.EText25 = New Frame7.eText()
+        Me.EText24 = New Frame7.eText()
+        Me.EDate5 = New Frame7.eDate()
+        Me.EMemo4 = New Frame7.eMemo()
+        Me.EText23 = New Frame7.eText()
+        Me.EMemo3 = New Frame7.eMemo()
+        Me.EText22 = New Frame7.eText()
+        Me.EDate4 = New Frame7.eDate()
+        Me.EText21 = New Frame7.eText()
+        Me.EText20 = New Frame7.eText()
+        Me.EText19 = New Frame7.eText()
+        Me.EText18 = New Frame7.eText()
+        Me.EDate3 = New Frame7.eDate()
+        Me.EText17 = New Frame7.eText()
+        Me.EText16 = New Frame7.eText()
+        Me.ECheck8 = New Frame7.eCheck()
+        Me.ECheck9 = New Frame7.eCheck()
+        Me.ECheck2 = New Frame7.eCheck()
+        Me.ECheck3 = New Frame7.eCheck()
+        Me.EMemo2 = New Frame7.eMemo()
+        Me.EText13 = New Frame7.eText()
+        Me.ECheck5 = New Frame7.eCheck()
+        Me.ECheck10 = New Frame7.eCheck()
+        Me.ECheck11 = New Frame7.eCheck()
+        Me.ECheck4 = New Frame7.eCheck()
+        Me.ECheck7 = New Frame7.eCheck()
+        Me.ECheck6 = New Frame7.eCheck()
+        Me.EText15 = New Frame7.eText()
+        Me.EText14 = New Frame7.eText()
+        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.RectangleShape6 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.RectangleShape5 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.RectangleShape4 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.RectangleShape3 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.RectangleShape2 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.SplitContainer1.Panel1.SuspendLayout()
+        Me.SplitContainer1.Panel2.SuspendLayout()
+        Me.SplitContainer1.SuspendLayout()
+        Me.SplitContainer2.Panel1.SuspendLayout()
+        Me.SplitContainer2.Panel2.SuspendLayout()
+        Me.SplitContainer2.SuspendLayout()
+        CType(Me.EPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.EPanel1.SuspendLayout()
+        Me.SplitContainer3.Panel1.SuspendLayout()
+        Me.SplitContainer3.Panel2.SuspendLayout()
+        Me.SplitContainer3.SuspendLayout()
+        CType(Me.f10, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.f10.SuspendLayout()
+        CType(Me.EPanel2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.EPanel2.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'SplitContainer1
+        '
+        Me.SplitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1
+        Me.SplitContainer1.Location = New System.Drawing.Point(4, 4)
+        Me.SplitContainer1.Name = "SplitContainer1"
+        '
+        'SplitContainer1.Panel1
+        '
+        Me.SplitContainer1.Panel1.Controls.Add(Me.SplitContainer2)
+        '
+        'SplitContainer1.Panel2
+        '
+        Me.SplitContainer1.Panel2.Controls.Add(Me.SplitContainer3)
+        Me.SplitContainer1.Size = New System.Drawing.Size(1091, 640)
+        Me.SplitContainer1.SplitterDistance = 269
+        Me.SplitContainer1.TabIndex = 0
+        '
+        'SplitContainer2
+        '
+        Me.SplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer2.FixedPanel = System.Windows.Forms.FixedPanel.Panel1
+        Me.SplitContainer2.Location = New System.Drawing.Point(0, 0)
+        Me.SplitContainer2.Name = "SplitContainer2"
+        Me.SplitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal
+        '
+        'SplitContainer2.Panel1
+        '
+        Me.SplitContainer2.Panel1.Controls.Add(Me.EPanel1)
+        '
+        'SplitContainer2.Panel2
+        '
+        Me.SplitContainer2.Panel2.Controls.Add(Me.g10)
+        Me.SplitContainer2.Size = New System.Drawing.Size(269, 640)
+        Me.SplitContainer2.SplitterDistance = 207
+        Me.SplitContainer2.TabIndex = 0
+        '
+        'EPanel1
+        '
+        Me.EPanel1.Controls.Add(Me.fr_dt)
+        Me.EPanel1.Controls.Add(Me.to_dt)
+        Me.EPanel1.Controls.Add(Me.EText5)
+        Me.EPanel1.Controls.Add(Me.EText6)
+        Me.EPanel1.Controls.Add(Me.ECombo1)
+        Me.EPanel1.Controls.Add(Me.EText8)
+        Me.EPanel1.Controls.Add(Me.stat_bc)
+        Me.EPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.EPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.EPanel1.Name = "EPanel1"
+        Me.EPanel1.Size = New System.Drawing.Size(269, 207)
+        Me.EPanel1.TabIndex = 0
+        Me.EPanel1.Text = "     검색"
+        '
+        'fr_dt
+        '
+        Me.fr_dt.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.fr_dt.Location = New System.Drawing.Point(15, 28)
+        Me.fr_dt.Name = "fr_dt"
+        Me.fr_dt.Size = New System.Drawing.Size(240, 21)
+        Me.fr_dt.TabIndex = 3
+        Me.fr_dt.Title = "fr_dt"
+        '
+        'to_dt
+        '
+        Me.to_dt.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.to_dt.Location = New System.Drawing.Point(15, 52)
+        Me.to_dt.Name = "to_dt"
+        Me.to_dt.Size = New System.Drawing.Size(240, 21)
+        Me.to_dt.TabIndex = 3
+        Me.to_dt.Title = "to_dt"
+        '
+        'EText5
+        '
+        Me.EText5.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText5.Location = New System.Drawing.Point(15, 76)
+        Me.EText5.Name = "EText5"
+        Me.EText5.Size = New System.Drawing.Size(240, 21)
+        Me.EText5.TabIndex = 2
+        Me.EText5.Title = "접수번호"
+        '
+        'EText6
+        '
+        Me.EText6.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText6.Location = New System.Drawing.Point(15, 101)
+        Me.EText6.Name = "EText6"
+        Me.EText6.Size = New System.Drawing.Size(240, 21)
+        Me.EText6.TabIndex = 2
+        Me.EText6.Title = "고객"
+        '
+        'ECombo1
+        '
+        Me.ECombo1.Location = New System.Drawing.Point(15, 126)
+        Me.ECombo1.Name = "ECombo1"
+        Me.ECombo1.Size = New System.Drawing.Size(240, 21)
+        Me.ECombo1.TabIndex = 4
+        Me.ECombo1.Title = "clm_bc"
+        '
+        'EText8
+        '
+        Me.EText8.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText8.Location = New System.Drawing.Point(15, 150)
+        Me.EText8.Name = "EText8"
+        Me.EText8.Size = New System.Drawing.Size(240, 21)
+        Me.EText8.TabIndex = 2
+        Me.EText8.Title = "접수자"
+        '
+        'g10
+        '
+        Me.g10.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.g10.Location = New System.Drawing.Point(0, 0)
+        Me.g10.Name = "g10"
+        Me.g10.ReadOnly = False
+        Me.g10.RowHeight = -1
+        Me.g10.Size = New System.Drawing.Size(269, 429)
+        Me.g10.TabIndex = 0
+        '
+        'SplitContainer3
+        '
+        Me.SplitContainer3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer3.FixedPanel = System.Windows.Forms.FixedPanel.Panel1
+        Me.SplitContainer3.Location = New System.Drawing.Point(0, 0)
+        Me.SplitContainer3.Name = "SplitContainer3"
+        Me.SplitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal
+        '
+        'SplitContainer3.Panel1
+        '
+        Me.SplitContainer3.Panel1.Controls.Add(Me.f10)
+        '
+        'SplitContainer3.Panel2
+        '
+        Me.SplitContainer3.Panel2.Controls.Add(Me.EPanel2)
+        Me.SplitContainer3.Size = New System.Drawing.Size(818, 640)
+        Me.SplitContainer3.SplitterDistance = 285
+        Me.SplitContainer3.TabIndex = 0
+        '
+        'f10
+        '
+        Me.f10.Controls.Add(Me.clm_no)
+        Me.f10.Controls.Add(Me.EText2)
+        Me.f10.Controls.Add(Me.cust_cd)
+        Me.f10.Controls.Add(Me.EDate2)
+        Me.f10.Controls.Add(Me.EDate1)
+        Me.f10.Controls.Add(Me.EText1)
+        Me.f10.Controls.Add(Me.clm_dt)
+        Me.f10.Controls.Add(Me.ECheck1)
+        Me.f10.Controls.Add(Me.EText3)
+        Me.f10.Controls.Add(Me.EText7)
+        Me.f10.Controls.Add(Me.EText9)
+        Me.f10.Controls.Add(Me.cust_nm)
+        Me.f10.Controls.Add(Me.EText12)
+        Me.f10.Controls.Add(Me.clm_dsc)
+        Me.f10.Controls.Add(Me.cust_no)
+        Me.f10.Controls.Add(Me.EText4)
+        Me.f10.Controls.Add(Me.EText10)
+        Me.f10.Controls.Add(Me.cust_dsc)
+        Me.f10.Controls.Add(Me.clm_bc)
+        Me.f10.Controls.Add(Me.EText11)
+        Me.f10.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.f10.Location = New System.Drawing.Point(0, 0)
+        Me.f10.Name = "f10"
+        Me.f10.Size = New System.Drawing.Size(818, 285)
+        Me.f10.TabIndex = 0
+        Me.f10.Text = "     고객 불만 접수 등록"
+        '
+        'clm_no
+        '
+        Me.clm_no.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.clm_no.Location = New System.Drawing.Point(12, 28)
+        Me.clm_no.Name = "clm_no"
+        Me.clm_no.Size = New System.Drawing.Size(240, 21)
+        Me.clm_no.TabIndex = 2
+        Me.clm_no.Title = "접수번호"
+        '
+        'EText2
+        '
+        Me.EText2.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText2.Location = New System.Drawing.Point(517, 28)
+        Me.EText2.Name = "EText2"
+        Me.EText2.Size = New System.Drawing.Size(214, 21)
+        Me.EText2.TabIndex = 2
+        Me.EText2.Title = "접수자"
+        Me.EText2.TitleWidth = 100
+        '
+        'cust_cd
+        '
+        Me.cust_cd.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.cust_cd.Location = New System.Drawing.Point(12, 52)
+        Me.cust_cd.Name = "cust_cd"
+        Me.cust_cd.Size = New System.Drawing.Size(240, 21)
+        Me.cust_cd.TabIndex = 2
+        Me.cust_cd.Title = "고객(1)"
+        '
+        'EDate2
+        '
+        Me.EDate2.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EDate2.Location = New System.Drawing.Point(517, 130)
+        Me.EDate2.Name = "EDate2"
+        Me.EDate2.Size = New System.Drawing.Size(214, 21)
+        Me.EDate2.TabIndex = 3
+        Me.EDate2.Title = ""
+        Me.EDate2.TitleWidth = 100
+        '
+        'EDate1
+        '
+        Me.EDate1.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EDate1.Location = New System.Drawing.Point(517, 103)
+        Me.EDate1.Name = "EDate1"
+        Me.EDate1.Size = New System.Drawing.Size(214, 21)
+        Me.EDate1.TabIndex = 3
+        Me.EDate1.Title = "사용기간(fr)"
+        Me.EDate1.TitleWidth = 100
+        '
+        'EText1
+        '
+        Me.EText1.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText1.Location = New System.Drawing.Point(273, 52)
+        Me.EText1.Name = "EText1"
+        Me.EText1.Size = New System.Drawing.Size(214, 21)
+        Me.EText1.TabIndex = 2
+        Me.EText1.Title = "연락처1"
+        Me.EText1.TitleWidth = 100
+        '
+        'clm_dt
+        '
+        Me.clm_dt.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.clm_dt.Location = New System.Drawing.Point(273, 28)
+        Me.clm_dt.Name = "clm_dt"
+        Me.clm_dt.Size = New System.Drawing.Size(217, 21)
+        Me.clm_dt.TabIndex = 3
+        Me.clm_dt.Title = "접수일자"
+        Me.clm_dt.TitleWidth = 100
+        '
+        'ECheck1
+        '
+        Me.ECheck1.Caption = ""
+        Me.ECheck1.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck1.Location = New System.Drawing.Point(261, 255)
+        Me.ECheck1.Name = "ECheck1"
+        Me.ECheck1.Size = New System.Drawing.Size(52, 21)
+        Me.ECheck1.TabIndex = 6
+        Me.ECheck1.Title = "확인"
+        Me.ECheck1.TitleWidth = 30
+        '
+        'EText3
+        '
+        Me.EText3.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText3.Location = New System.Drawing.Point(517, 52)
+        Me.EText3.Name = "EText3"
+        Me.EText3.Size = New System.Drawing.Size(214, 21)
+        Me.EText3.TabIndex = 2
+        Me.EText3.Title = "연락처2"
+        Me.EText3.TitleWidth = 100
+        '
+        'EText7
+        '
+        Me.EText7.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText7.Location = New System.Drawing.Point(12, 103)
+        Me.EText7.Name = "EText7"
+        Me.EText7.Size = New System.Drawing.Size(240, 21)
+        Me.EText7.TabIndex = 2
+        Me.EText7.Title = "제품명"
+        '
+        'EText9
+        '
+        Me.EText9.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText9.Location = New System.Drawing.Point(12, 130)
+        Me.EText9.Name = "EText9"
+        Me.EText9.Size = New System.Drawing.Size(478, 21)
+        Me.EText9.TabIndex = 2
+        Me.EText9.Title = "로트번호"
+        '
+        'cust_nm
+        '
+        Me.cust_nm.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.cust_nm.Location = New System.Drawing.Point(132, 76)
+        Me.cust_nm.Name = "cust_nm"
+        Me.cust_nm.Size = New System.Drawing.Size(599, 21)
+        Me.cust_nm.TabIndex = 2
+        Me.cust_nm.TitleWidth = 0
+        '
+        'EText12
+        '
+        Me.EText12.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText12.Location = New System.Drawing.Point(12, 255)
+        Me.EText12.Name = "EText12"
+        Me.EText12.Size = New System.Drawing.Size(240, 21)
+        Me.EText12.TabIndex = 2
+        Me.EText12.Title = "영업부서장"
+        '
+        'clm_dsc
+        '
+        Me.clm_dsc.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.clm_dsc.Location = New System.Drawing.Point(12, 184)
+        Me.clm_dsc.Name = "clm_dsc"
+        Me.clm_dsc.Size = New System.Drawing.Size(719, 65)
+        Me.clm_dsc.TabIndex = 5
+        Me.clm_dsc.Title = "불만내용세부사항"
+        '
+        'cust_no
+        '
+        Me.cust_no.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.cust_no.Location = New System.Drawing.Point(653, 192)
+        Me.cust_no.Name = "cust_no"
+        Me.cust_no.Size = New System.Drawing.Size(78, 21)
+        Me.cust_no.TabIndex = 2
+        Me.cust_no.Title = "cust_no"
+        '
+        'EText4
+        '
+        Me.EText4.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText4.Location = New System.Drawing.Point(737, 26)
+        Me.EText4.Name = "EText4"
+        Me.EText4.Size = New System.Drawing.Size(30, 21)
+        Me.EText4.TabIndex = 2
+        Me.EText4.Title = "사번"
+        '
+        'EText10
+        '
+        Me.EText10.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText10.Location = New System.Drawing.Point(261, 103)
+        Me.EText10.Name = "EText10"
+        Me.EText10.Size = New System.Drawing.Size(229, 21)
+        Me.EText10.TabIndex = 2
+        Me.EText10.TitleWidth = 0
+        '
+        'cust_dsc
+        '
+        Me.cust_dsc.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.cust_dsc.Location = New System.Drawing.Point(569, 192)
+        Me.cust_dsc.Name = "cust_dsc"
+        Me.cust_dsc.Size = New System.Drawing.Size(78, 21)
+        Me.cust_dsc.TabIndex = 2
+        Me.cust_dsc.Title = "cust_dsc"
+        '
+        'clm_bc
+        '
+        Me.clm_bc.Location = New System.Drawing.Point(12, 157)
+        Me.clm_bc.Name = "clm_bc"
+        Me.clm_bc.Size = New System.Drawing.Size(240, 21)
+        Me.clm_bc.TabIndex = 4
+        Me.clm_bc.Title = "clm_bc"
+        '
+        'EText11
+        '
+        Me.EText11.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText11.Location = New System.Drawing.Point(319, 255)
+        Me.EText11.Name = "EText11"
+        Me.EText11.Size = New System.Drawing.Size(30, 21)
+        Me.EText11.TabIndex = 2
+        Me.EText11.Title = "사번"
+        '
+        'stat_bc
+        '
+        Me.stat_bc.Location = New System.Drawing.Point(15, 176)
+        Me.stat_bc.Name = "stat_bc"
+        Me.stat_bc.Size = New System.Drawing.Size(240, 21)
+        Me.stat_bc.TabIndex = 4
+        Me.stat_bc.Title = "진행상태"
+        '
+        'EPanel2
+        '
+        Me.EPanel2.Controls.Add(Me.EText25)
+        Me.EPanel2.Controls.Add(Me.EText24)
+        Me.EPanel2.Controls.Add(Me.EDate5)
+        Me.EPanel2.Controls.Add(Me.EMemo4)
+        Me.EPanel2.Controls.Add(Me.EText23)
+        Me.EPanel2.Controls.Add(Me.EMemo3)
+        Me.EPanel2.Controls.Add(Me.EText22)
+        Me.EPanel2.Controls.Add(Me.EDate4)
+        Me.EPanel2.Controls.Add(Me.EText21)
+        Me.EPanel2.Controls.Add(Me.EText20)
+        Me.EPanel2.Controls.Add(Me.EText19)
+        Me.EPanel2.Controls.Add(Me.EText18)
+        Me.EPanel2.Controls.Add(Me.EDate3)
+        Me.EPanel2.Controls.Add(Me.EText17)
+        Me.EPanel2.Controls.Add(Me.EText16)
+        Me.EPanel2.Controls.Add(Me.ECheck8)
+        Me.EPanel2.Controls.Add(Me.ECheck9)
+        Me.EPanel2.Controls.Add(Me.ECheck2)
+        Me.EPanel2.Controls.Add(Me.ECheck3)
+        Me.EPanel2.Controls.Add(Me.EMemo2)
+        Me.EPanel2.Controls.Add(Me.EText13)
+        Me.EPanel2.Controls.Add(Me.ECheck5)
+        Me.EPanel2.Controls.Add(Me.ECheck10)
+        Me.EPanel2.Controls.Add(Me.ECheck11)
+        Me.EPanel2.Controls.Add(Me.ECheck4)
+        Me.EPanel2.Controls.Add(Me.ECheck7)
+        Me.EPanel2.Controls.Add(Me.ECheck6)
+        Me.EPanel2.Controls.Add(Me.EText15)
+        Me.EPanel2.Controls.Add(Me.EText14)
+        Me.EPanel2.Controls.Add(Me.ShapeContainer1)
+        Me.EPanel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.EPanel2.Location = New System.Drawing.Point(0, 0)
+        Me.EPanel2.Name = "EPanel2"
+        Me.EPanel2.Size = New System.Drawing.Size(818, 351)
+        Me.EPanel2.TabIndex = 4
+        Me.EPanel2.Text = "     조치 및 회신 내용"
+        '
+        'EText25
+        '
+        Me.EText25.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText25.Location = New System.Drawing.Point(601, 277)
+        Me.EText25.Name = "EText25"
+        Me.EText25.Size = New System.Drawing.Size(130, 21)
+        Me.EText25.TabIndex = 2
+        Me.EText25.Title = "회신자"
+        Me.EText25.TitleForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.EText25.TitleWidth = 40
+        '
+        'EText24
+        '
+        Me.EText24.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText24.Location = New System.Drawing.Point(737, 277)
+        Me.EText24.Name = "EText24"
+        Me.EText24.Size = New System.Drawing.Size(30, 21)
+        Me.EText24.TabIndex = 2
+        Me.EText24.Title = "사번"
+        '
+        'EDate5
+        '
+        Me.EDate5.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EDate5.Location = New System.Drawing.Point(449, 277)
+        Me.EDate5.Name = "EDate5"
+        Me.EDate5.Size = New System.Drawing.Size(146, 21)
+        Me.EDate5.TabIndex = 3
+        Me.EDate5.Title = "회신일자"
+        Me.EDate5.TitleForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.EDate5.TitleWidth = 50
+        '
+        'EMemo4
+        '
+        Me.EMemo4.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EMemo4.Location = New System.Drawing.Point(105, 248)
+        Me.EMemo4.Name = "EMemo4"
+        Me.EMemo4.Size = New System.Drawing.Size(338, 50)
+        Me.EMemo4.TabIndex = 5
+        Me.EMemo4.Title = ""
+        Me.EMemo4.TitleWidth = 0
+        '
+        'EText23
+        '
+        Me.EText23.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText23.Location = New System.Drawing.Point(24, 261)
+        Me.EText23.Name = "EText23"
+        Me.EText23.Size = New System.Drawing.Size(55, 21)
+        Me.EText23.TabIndex = 7
+        Me.EText23.Title = "고객회신"
+        Me.EText23.TitleWidth = 400
+        '
+        'EMemo3
+        '
+        Me.EMemo3.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EMemo3.Location = New System.Drawing.Point(449, 152)
+        Me.EMemo3.Name = "EMemo3"
+        Me.EMemo3.Size = New System.Drawing.Size(282, 43)
+        Me.EMemo3.TabIndex = 5
+        Me.EMemo3.Title = ""
+        Me.EMemo3.TitleWidth = 0
+        '
+        'EText22
+        '
+        Me.EText22.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText22.Location = New System.Drawing.Point(601, 200)
+        Me.EText22.Name = "EText22"
+        Me.EText22.Size = New System.Drawing.Size(130, 21)
+        Me.EText22.TabIndex = 2
+        Me.EText22.Title = "조치자"
+        Me.EText22.TitleForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.EText22.TitleWidth = 40
+        '
+        'EDate4
+        '
+        Me.EDate4.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EDate4.Location = New System.Drawing.Point(449, 200)
+        Me.EDate4.Name = "EDate4"
+        Me.EDate4.Size = New System.Drawing.Size(146, 21)
+        Me.EDate4.TabIndex = 3
+        Me.EDate4.Title = "조치일자"
+        Me.EDate4.TitleForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.EDate4.TitleWidth = 50
+        '
+        'EText21
+        '
+        Me.EText21.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText21.Location = New System.Drawing.Point(737, 200)
+        Me.EText21.Name = "EText21"
+        Me.EText21.Size = New System.Drawing.Size(30, 21)
+        Me.EText21.TabIndex = 2
+        Me.EText21.Title = "사번"
+        '
+        'EText20
+        '
+        Me.EText20.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText20.Location = New System.Drawing.Point(24, 174)
+        Me.EText20.Name = "EText20"
+        Me.EText20.Size = New System.Drawing.Size(55, 21)
+        Me.EText20.TabIndex = 7
+        Me.EText20.Title = "조치내용"
+        Me.EText20.TitleWidth = 400
+        '
+        'EText19
+        '
+        Me.EText19.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText19.Location = New System.Drawing.Point(601, 111)
+        Me.EText19.Name = "EText19"
+        Me.EText19.Size = New System.Drawing.Size(130, 21)
+        Me.EText19.TabIndex = 2
+        Me.EText19.Title = "조사자"
+        Me.EText19.TitleForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.EText19.TitleWidth = 40
+        '
+        'EText18
+        '
+        Me.EText18.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText18.Location = New System.Drawing.Point(737, 111)
+        Me.EText18.Name = "EText18"
+        Me.EText18.Size = New System.Drawing.Size(30, 21)
+        Me.EText18.TabIndex = 2
+        Me.EText18.Title = "사번"
+        '
+        'EDate3
+        '
+        Me.EDate3.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EDate3.Location = New System.Drawing.Point(449, 111)
+        Me.EDate3.Name = "EDate3"
+        Me.EDate3.Size = New System.Drawing.Size(146, 21)
+        Me.EDate3.TabIndex = 3
+        Me.EDate3.Title = "조사일자"
+        Me.EDate3.TitleForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.EDate3.TitleWidth = 50
+        '
+        'EText17
+        '
+        Me.EText17.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText17.Location = New System.Drawing.Point(24, 77)
+        Me.EText17.Name = "EText17"
+        Me.EText17.Size = New System.Drawing.Size(55, 21)
+        Me.EText17.TabIndex = 7
+        Me.EText17.Title = "분석내용"
+        Me.EText17.TitleWidth = 400
+        '
+        'EText16
+        '
+        Me.EText16.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText16.Location = New System.Drawing.Point(24, 51)
+        Me.EText16.Name = "EText16"
+        Me.EText16.Size = New System.Drawing.Size(55, 21)
+        Me.EText16.TabIndex = 7
+        Me.EText16.Title = "조사   및"
+        Me.EText16.TitleWidth = 400
+        '
+        'ECheck8
+        '
+        Me.ECheck8.Caption = ""
+        Me.ECheck8.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck8.Location = New System.Drawing.Point(95, 161)
+        Me.ECheck8.Name = "ECheck8"
+        Me.ECheck8.Size = New System.Drawing.Size(53, 21)
+        Me.ECheck8.TabIndex = 6
+        Me.ECheck8.Title = "교환"
+        Me.ECheck8.TitleWidth = 30
+        '
+        'ECheck9
+        '
+        Me.ECheck9.Caption = ""
+        Me.ECheck9.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck9.Location = New System.Drawing.Point(165, 161)
+        Me.ECheck9.Name = "ECheck9"
+        Me.ECheck9.Size = New System.Drawing.Size(53, 21)
+        Me.ECheck9.TabIndex = 6
+        Me.ECheck9.Title = "반품"
+        Me.ECheck9.TitleWidth = 30
+        '
+        'ECheck2
+        '
+        Me.ECheck2.Caption = ""
+        Me.ECheck2.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck2.Location = New System.Drawing.Point(304, 35)
+        Me.ECheck2.Name = "ECheck2"
+        Me.ECheck2.Size = New System.Drawing.Size(45, 21)
+        Me.ECheck2.TabIndex = 6
+        Me.ECheck2.Title = "예"
+        Me.ECheck2.TitleWidth = 20
+        '
+        'ECheck3
+        '
+        Me.ECheck3.Caption = ""
+        Me.ECheck3.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck3.Location = New System.Drawing.Point(364, 35)
+        Me.ECheck3.Name = "ECheck3"
+        Me.ECheck3.Size = New System.Drawing.Size(76, 21)
+        Me.ECheck3.TabIndex = 6
+        Me.ECheck3.Title = "아니요"
+        Me.ECheck3.TitleWidth = 50
+        '
+        'EMemo2
+        '
+        Me.EMemo2.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EMemo2.Location = New System.Drawing.Point(449, 35)
+        Me.EMemo2.Name = "EMemo2"
+        Me.EMemo2.Size = New System.Drawing.Size(282, 74)
+        Me.EMemo2.TabIndex = 5
+        Me.EMemo2.Title = ""
+        Me.EMemo2.TitleWidth = 0
+        '
+        'EText13
+        '
+        Me.EText13.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText13.Location = New System.Drawing.Point(105, 35)
+        Me.EText13.Name = "EText13"
+        Me.EText13.Size = New System.Drawing.Size(193, 21)
+        Me.EText13.TabIndex = 7
+        Me.EText13.Title = "- 귀책이 있는 불만이 있는가 "
+        Me.EText13.TitleWidth = 400
+        '
+        'ECheck5
+        '
+        Me.ECheck5.Caption = ""
+        Me.ECheck5.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck5.Location = New System.Drawing.Point(304, 61)
+        Me.ECheck5.Name = "ECheck5"
+        Me.ECheck5.Size = New System.Drawing.Size(45, 21)
+        Me.ECheck5.TabIndex = 6
+        Me.ECheck5.Title = "예"
+        Me.ECheck5.TitleWidth = 20
+        '
+        'ECheck10
+        '
+        Me.ECheck10.Caption = ""
+        Me.ECheck10.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck10.Location = New System.Drawing.Point(235, 161)
+        Me.ECheck10.Name = "ECheck10"
+        Me.ECheck10.Size = New System.Drawing.Size(53, 21)
+        Me.ECheck10.TabIndex = 6
+        Me.ECheck10.Title = "폐기"
+        Me.ECheck10.TitleWidth = 30
+        '
+        'ECheck11
+        '
+        Me.ECheck11.Caption = ""
+        Me.ECheck11.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck11.Location = New System.Drawing.Point(304, 161)
+        Me.ECheck11.Name = "ECheck11"
+        Me.ECheck11.Size = New System.Drawing.Size(122, 21)
+        Me.ECheck11.TabIndex = 6
+        Me.ECheck11.Title = "기타 조치내용"
+        Me.ECheck11.TitleWidth = 100
+        '
+        'ECheck4
+        '
+        Me.ECheck4.Caption = ""
+        Me.ECheck4.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck4.Location = New System.Drawing.Point(364, 61)
+        Me.ECheck4.Name = "ECheck4"
+        Me.ECheck4.Size = New System.Drawing.Size(76, 21)
+        Me.ECheck4.TabIndex = 6
+        Me.ECheck4.Title = "아니요"
+        Me.ECheck4.TitleWidth = 50
+        '
+        'ECheck7
+        '
+        Me.ECheck7.Caption = ""
+        Me.ECheck7.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck7.Location = New System.Drawing.Point(304, 88)
+        Me.ECheck7.Name = "ECheck7"
+        Me.ECheck7.Size = New System.Drawing.Size(45, 21)
+        Me.ECheck7.TabIndex = 6
+        Me.ECheck7.Title = "예"
+        Me.ECheck7.TitleWidth = 20
+        '
+        'ECheck6
+        '
+        Me.ECheck6.Caption = ""
+        Me.ECheck6.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.ECheck6.Location = New System.Drawing.Point(364, 88)
+        Me.ECheck6.Name = "ECheck6"
+        Me.ECheck6.Size = New System.Drawing.Size(76, 21)
+        Me.ECheck6.TabIndex = 6
+        Me.ECheck6.Title = "아니요"
+        Me.ECheck6.TitleWidth = 50
+        '
+        'EText15
+        '
+        Me.EText15.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText15.Location = New System.Drawing.Point(105, 88)
+        Me.EText15.Name = "EText15"
+        Me.EText15.Size = New System.Drawing.Size(193, 21)
+        Me.EText15.TabIndex = 7
+        Me.EText15.Title = "- 당국에 보고해야하는 사고인가"
+        Me.EText15.TitleWidth = 400
+        '
+        'EText14
+        '
+        Me.EText14.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.EText14.Location = New System.Drawing.Point(105, 61)
+        Me.EText14.Name = "EText14"
+        Me.EText14.Size = New System.Drawing.Size(193, 21)
+        Me.EText14.TabIndex = 7
+        Me.EText14.Title = "- 원인분석 및 시정조치가 필요한가"
+        Me.EText14.TitleWidth = 400
+        '
+        'ShapeContainer1
+        '
+        Me.ShapeContainer1.Location = New System.Drawing.Point(2, 23)
+        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
+        Me.ShapeContainer1.Name = "ShapeContainer1"
+        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape6, Me.RectangleShape5, Me.RectangleShape4, Me.RectangleShape3, Me.RectangleShape2, Me.RectangleShape1})
+        Me.ShapeContainer1.Size = New System.Drawing.Size(814, 326)
+        Me.ShapeContainer1.TabIndex = 8
+        Me.ShapeContainer1.TabStop = False
+        '
+        'RectangleShape6
+        '
+        Me.RectangleShape6.BorderColor = System.Drawing.SystemColors.ControlDark
+        Me.RectangleShape6.Location = New System.Drawing.Point(10, 219)
+        Me.RectangleShape6.Name = "RectangleShape6"
+        Me.RectangleShape6.Size = New System.Drawing.Size(75, 65)
+        '
+        'RectangleShape5
+        '
+        Me.RectangleShape5.BorderColor = System.Drawing.SystemColors.ControlDark
+        Me.RectangleShape5.Location = New System.Drawing.Point(10, 219)
+        Me.RectangleShape5.Name = "RectangleShape5"
+        Me.RectangleShape5.Size = New System.Drawing.Size(723, 65)
+        '
+        'RectangleShape4
+        '
+        Me.RectangleShape4.BorderColor = System.Drawing.SystemColors.ControlDark
+        Me.RectangleShape4.Location = New System.Drawing.Point(11, 124)
+        Me.RectangleShape4.Name = "RectangleShape4"
+        Me.RectangleShape4.Size = New System.Drawing.Size(75, 80)
+        '
+        'RectangleShape3
+        '
+        Me.RectangleShape3.BorderColor = System.Drawing.SystemColors.ControlDark
+        Me.RectangleShape3.Location = New System.Drawing.Point(11, 5)
+        Me.RectangleShape3.Name = "RectangleShape3"
+        Me.RectangleShape3.Size = New System.Drawing.Size(75, 106)
+        '
+        'RectangleShape2
+        '
+        Me.RectangleShape2.BorderColor = System.Drawing.SystemColors.ControlDark
+        Me.RectangleShape2.Location = New System.Drawing.Point(11, 124)
+        Me.RectangleShape2.Name = "RectangleShape2"
+        Me.RectangleShape2.Size = New System.Drawing.Size(723, 80)
+        '
+        'RectangleShape1
+        '
+        Me.RectangleShape1.BorderColor = System.Drawing.SystemColors.ControlDark
+        Me.RectangleShape1.Location = New System.Drawing.Point(11, 5)
+        Me.RectangleShape1.Name = "RectangleShape1"
+        Me.RectangleShape1.Size = New System.Drawing.Size(723, 106)
+        '
+        'QML100
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 12.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.SplitContainer1)
+        Me.Name = "QML100"
+        Me.Size = New System.Drawing.Size(1098, 650)
+        Me.Controls.SetChildIndex(Me.SplitContainer1, 0)
+        Me.SplitContainer1.Panel1.ResumeLayout(False)
+        Me.SplitContainer1.Panel2.ResumeLayout(False)
+        Me.SplitContainer1.ResumeLayout(False)
+        Me.SplitContainer2.Panel1.ResumeLayout(False)
+        Me.SplitContainer2.Panel2.ResumeLayout(False)
+        Me.SplitContainer2.ResumeLayout(False)
+        CType(Me.EPanel1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.EPanel1.ResumeLayout(False)
+        Me.SplitContainer3.Panel1.ResumeLayout(False)
+        Me.SplitContainer3.Panel2.ResumeLayout(False)
+        Me.SplitContainer3.ResumeLayout(False)
+        CType(Me.f10, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.f10.ResumeLayout(False)
+        CType(Me.EPanel2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.EPanel2.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents SplitContainer1 As System.Windows.Forms.SplitContainer
+    Friend WithEvents SplitContainer2 As System.Windows.Forms.SplitContainer
+    Friend WithEvents EPanel1 As Frame7.ePanel
+    Friend WithEvents fr_dt As Frame7.eDate
+    Friend WithEvents to_dt As Frame7.eDate
+    Friend WithEvents g10 As Frame7.eGrid
+    Friend WithEvents SplitContainer3 As System.Windows.Forms.SplitContainer
+    Friend WithEvents f10 As Frame7.ePanel
+    Friend WithEvents clm_no As Frame7.eText
+    Friend WithEvents clm_dt As Frame7.eDate
+    Friend WithEvents cust_no As Frame7.eText
+    Friend WithEvents clm_bc As Frame7.eCombo
+    Friend WithEvents cust_dsc As Frame7.eText
+    Friend WithEvents cust_cd As Frame7.eText
+    Friend WithEvents cust_nm As Frame7.eText
+    Friend WithEvents clm_dsc As Frame7.eMemo
+    Friend WithEvents EText2 As Frame7.eText
+    Friend WithEvents EText4 As Frame7.eText
+    Friend WithEvents EText5 As Frame7.eText
+    Friend WithEvents EText6 As Frame7.eText
+    Friend WithEvents ECombo1 As Frame7.eCombo
+    Friend WithEvents EText8 As Frame7.eText
+    Friend WithEvents EText1 As Frame7.eText
+    Friend WithEvents EText3 As Frame7.eText
+    Friend WithEvents EText7 As Frame7.eText
+    Friend WithEvents EText10 As Frame7.eText
+    Friend WithEvents ECheck1 As Frame7.eCheck
+    Friend WithEvents EDate1 As Frame7.eDate
+    Friend WithEvents EDate2 As Frame7.eDate
+    Friend WithEvents EText12 As Frame7.eText
+    Friend WithEvents EText9 As Frame7.eText
+    Friend WithEvents EText11 As Frame7.eText
+    Friend WithEvents stat_bc As Frame7.eCombo
+    Friend WithEvents EPanel2 As Frame7.ePanel
+    Friend WithEvents EText25 As Frame7.eText
+    Friend WithEvents EText24 As Frame7.eText
+    Friend WithEvents EDate5 As Frame7.eDate
+    Friend WithEvents EMemo4 As Frame7.eMemo
+    Friend WithEvents EText23 As Frame7.eText
+    Friend WithEvents EMemo3 As Frame7.eMemo
+    Friend WithEvents EText22 As Frame7.eText
+    Friend WithEvents EDate4 As Frame7.eDate
+    Friend WithEvents EText21 As Frame7.eText
+    Friend WithEvents EText20 As Frame7.eText
+    Friend WithEvents EText19 As Frame7.eText
+    Friend WithEvents EText18 As Frame7.eText
+    Friend WithEvents EDate3 As Frame7.eDate
+    Friend WithEvents EText17 As Frame7.eText
+    Friend WithEvents EText16 As Frame7.eText
+    Friend WithEvents ECheck8 As Frame7.eCheck
+    Friend WithEvents ECheck9 As Frame7.eCheck
+    Friend WithEvents ECheck2 As Frame7.eCheck
+    Friend WithEvents ECheck3 As Frame7.eCheck
+    Friend WithEvents EMemo2 As Frame7.eMemo
+    Friend WithEvents EText13 As Frame7.eText
+    Friend WithEvents ECheck5 As Frame7.eCheck
+    Friend WithEvents ECheck10 As Frame7.eCheck
+    Friend WithEvents ECheck11 As Frame7.eCheck
+    Friend WithEvents ECheck4 As Frame7.eCheck
+    Friend WithEvents ECheck7 As Frame7.eCheck
+    Friend WithEvents ECheck6 As Frame7.eCheck
+    Friend WithEvents EText15 As Frame7.eText
+    Friend WithEvents EText14 As Frame7.eText
+    Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
+    Friend WithEvents RectangleShape6 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+    Friend WithEvents RectangleShape5 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+    Friend WithEvents RectangleShape4 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+    Friend WithEvents RectangleShape3 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+    Friend WithEvents RectangleShape2 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+    Friend WithEvents RectangleShape1 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+
+End Class

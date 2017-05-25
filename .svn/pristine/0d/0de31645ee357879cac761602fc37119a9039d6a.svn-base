@@ -1,0 +1,223 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class ESF000
+    Inherits Base7.Form
+
+    'Form은 Dispose를 재정의하여 구성 요소 목록을 정리합니다.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Windows Form 디자이너에 필요합니다.
+    Private components As System.ComponentModel.IContainer
+
+    '참고: 다음 프로시저는 Windows Form 디자이너에 필요합니다.
+    '수정하려면 Windows Form 디자이너를 사용하십시오.  
+    '코드 편집기를 사용하여 수정하지 마십시오.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ESF000))
+        Me.btn_06 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_12 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_02 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_09 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_03 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_04 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_10 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_08 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_07 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_11 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_05 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btn_01 = New DevExpress.XtraEditors.SimpleButton()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'btn_06
+        '
+        Me.btn_06.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_06.Appearance.Options.UseFont = True
+        Me.btn_06.Location = New System.Drawing.Point(1060, 182)
+        Me.btn_06.Name = "btn_06"
+        Me.btn_06.Size = New System.Drawing.Size(309, 65)
+        Me.btn_06.TabIndex = 6
+        Me.btn_06.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_12
+        '
+        Me.btn_12.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_12.Appearance.Options.UseFont = True
+        Me.btn_12.Location = New System.Drawing.Point(1060, 407)
+        Me.btn_12.Name = "btn_12"
+        Me.btn_12.Size = New System.Drawing.Size(309, 65)
+        Me.btn_12.TabIndex = 12
+        Me.btn_12.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_02
+        '
+        Me.btn_02.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_02.Appearance.Options.UseFont = True
+        Me.btn_02.Location = New System.Drawing.Point(1060, 32)
+        Me.btn_02.Name = "btn_02"
+        Me.btn_02.Size = New System.Drawing.Size(309, 65)
+        Me.btn_02.TabIndex = 2
+        Me.btn_02.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_09
+        '
+        Me.btn_09.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_09.Appearance.Options.UseFont = True
+        Me.btn_09.Location = New System.Drawing.Point(740, 333)
+        Me.btn_09.Name = "btn_09"
+        Me.btn_09.Size = New System.Drawing.Size(309, 65)
+        Me.btn_09.TabIndex = 9
+        Me.btn_09.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_03
+        '
+        Me.btn_03.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_03.Appearance.Options.UseFont = True
+        Me.btn_03.Location = New System.Drawing.Point(740, 108)
+        Me.btn_03.Name = "btn_03"
+        Me.btn_03.Size = New System.Drawing.Size(309, 65)
+        Me.btn_03.TabIndex = 3
+        Me.btn_03.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_04
+        '
+        Me.btn_04.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_04.Appearance.Options.UseFont = True
+        Me.btn_04.Location = New System.Drawing.Point(1060, 107)
+        Me.btn_04.Name = "btn_04"
+        Me.btn_04.Size = New System.Drawing.Size(309, 65)
+        Me.btn_04.TabIndex = 4
+        Me.btn_04.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_10
+        '
+        Me.btn_10.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_10.Appearance.Options.UseFont = True
+        Me.btn_10.Location = New System.Drawing.Point(1060, 332)
+        Me.btn_10.Name = "btn_10"
+        Me.btn_10.Size = New System.Drawing.Size(309, 65)
+        Me.btn_10.TabIndex = 10
+        Me.btn_10.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_08
+        '
+        Me.btn_08.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_08.Appearance.Options.UseFont = True
+        Me.btn_08.Location = New System.Drawing.Point(1060, 257)
+        Me.btn_08.Name = "btn_08"
+        Me.btn_08.Size = New System.Drawing.Size(309, 65)
+        Me.btn_08.TabIndex = 8
+        Me.btn_08.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_07
+        '
+        Me.btn_07.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_07.Appearance.Options.UseFont = True
+        Me.btn_07.Location = New System.Drawing.Point(740, 258)
+        Me.btn_07.Name = "btn_07"
+        Me.btn_07.Size = New System.Drawing.Size(309, 65)
+        Me.btn_07.TabIndex = 7
+        Me.btn_07.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_11
+        '
+        Me.btn_11.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_11.Appearance.Options.UseFont = True
+        Me.btn_11.Location = New System.Drawing.Point(740, 408)
+        Me.btn_11.Name = "btn_11"
+        Me.btn_11.Size = New System.Drawing.Size(309, 65)
+        Me.btn_11.TabIndex = 11
+        Me.btn_11.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_05
+        '
+        Me.btn_05.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_05.Appearance.Options.UseFont = True
+        Me.btn_05.Location = New System.Drawing.Point(740, 183)
+        Me.btn_05.Name = "btn_05"
+        Me.btn_05.Size = New System.Drawing.Size(309, 65)
+        Me.btn_05.TabIndex = 5
+        Me.btn_05.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'btn_01
+        '
+        Me.btn_01.Appearance.Font = New System.Drawing.Font("굴림", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
+        Me.btn_01.Appearance.Options.UseFont = True
+        Me.btn_01.Location = New System.Drawing.Point(740, 36)
+        Me.btn_01.Name = "btn_01"
+        Me.btn_01.Size = New System.Drawing.Size(309, 65)
+        Me.btn_01.TabIndex = 1
+        Me.btn_01.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.btn_06)
+        Me.Panel1.Controls.Add(Me.btn_01)
+        Me.Panel1.Controls.Add(Me.btn_12)
+        Me.Panel1.Controls.Add(Me.btn_05)
+        Me.Panel1.Controls.Add(Me.btn_02)
+        Me.Panel1.Controls.Add(Me.btn_11)
+        Me.Panel1.Controls.Add(Me.btn_09)
+        Me.Panel1.Controls.Add(Me.btn_07)
+        Me.Panel1.Controls.Add(Me.btn_03)
+        Me.Panel1.Controls.Add(Me.btn_08)
+        Me.Panel1.Controls.Add(Me.btn_04)
+        Me.Panel1.Controls.Add(Me.btn_10)
+        Me.Panel1.Controls.Add(Me.PictureBox1)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1422, 700)
+        Me.Panel1.TabIndex = 24
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(28, 36)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(688, 340)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 13
+        Me.PictureBox1.TabStop = False
+        '
+        'ESF000
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 12.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.Panel1)
+        Me.Name = "ESF000"
+        Me.Size = New System.Drawing.Size(1422, 700)
+        Me.Controls.SetChildIndex(Me.Panel1, 0)
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents btn_06 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_12 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_02 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_09 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_03 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_04 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_10 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_08 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_07 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_11 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_05 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_01 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+
+End Class
